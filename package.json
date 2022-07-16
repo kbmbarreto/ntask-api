@@ -1,0 +1,21 @@
+{
+  "name": "ntask-api",
+  "version": "1.0.0",
+  "description": "API de gestão de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbmbarreto/ntask-api.git"
+  },
+  "author": "Kleber Barreto",
+  "bugs": {
+    "url": "https://github.com/kbmbarreto/ntask-api/issues"
+  },
+  "homepage": "https://github.com/kbmbarreto/ntask-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
