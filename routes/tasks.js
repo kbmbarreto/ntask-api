@@ -1,12 +1,28 @@
 module.exports = app => {
     const Tasks = app.models.tasks;
 
-    app.get('/tasks', async (req, res) => {
-        try{
-            const tasks = await Tasks.findAll();
-            res.json({tasks});
-        } catch (ex) {
-            res.status(500).json(ex);
-        }
-    });
+    app.route('/tasks')
+        .all((req, res) => {
+
+        })
+        .get((req, res) => {
+
+        })
+        .post((req, res) => {
+
+        });
+
+    app.route('/tasks/:id')
+        .all((req, res) => {
+
+        })
+        .get((req, res) => {
+
+        })
+        .put((req, res) => {
+
+        })
+        .delete((req, res) => {
+
+        });
 };
