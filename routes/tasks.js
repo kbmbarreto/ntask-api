@@ -28,8 +28,18 @@ module.exports = app => {
             delete req.body.id;
             next();
         })
-        .get((req, res) => {
-
+        .get(async (req, res) => {
+            try {
+                const {id} = req.params;
+                const result = await Tasks.findOne({where});
+                if(result) {
+                    res.json(result);
+                } else {
+                    res.sendStatus(404);
+                }
+            } catch (ex) {
+                res.status(412).json({msg: ex.message});
+            }
         })
         .put((req, res) => {
 
