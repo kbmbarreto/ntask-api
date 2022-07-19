@@ -14,8 +14,13 @@ module.exports = app => {
                 res.status(412).json({msg: ex.message});
             }
         })
-        .post((req, res) => {
-
+        .post(async (req, res) => {
+            try {
+                const result = await Tasks.create(req.body);
+                res.json(result);
+            } catch (ex) {
+                res.status(412).json({msg: ex.message})
+            }
         });
 
     app.route('/tasks/:id')
