@@ -41,8 +41,15 @@ module.exports = app => {
                 res.status(412).json({msg: ex.message});
             }
         })
-        .put((req, res) => {
-
+        .put(async (req, res) => {
+            try {
+                const {id} = req.params;
+                const where = {id};
+                await Tasks.update(req.body, {where});
+                res.sendStatus(204);
+            } catch (ex) {
+                res.status(412).json({msg: ex.message});
+            }
         })
         .delete((req, res) => {
 
