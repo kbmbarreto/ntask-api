@@ -51,7 +51,14 @@ module.exports = app => {
                 res.status(412).json({msg: ex.message});
             }
         })
-        .delete((req, res) => {
-
+        .delete(async (req, res) => {
+            try {
+                const {id} = req.params;
+                const where = {id};
+                await Tasks.destroy({where});
+                res.sendStatus(204);
+            } catch (ex) {
+                res.status(412).json({msg: ex.message});
+            }
         });
 };
