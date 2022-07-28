@@ -24,6 +24,6 @@ Link do ebook: https://www.casadocodigo.com.br/products/livro-apis-nodejs
 
 ## About
 
-Kleber Barreto de Macedo - kleber.barreto@msn.com
+Kleber Barreto de Macedo - https://github.com/kbmbarreto
 
 Projeto original criado por Caio Ribeiro Pereira - https://crpwebdev.github.io
