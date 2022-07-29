@@ -1,5 +1,5 @@
 module.exports = app => {
-    app.get('/', (req, res) => {
+    app.get('/v1', (req, res) => {
         res.json({status: 'NTask API'});
     });
 };
