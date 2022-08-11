@@ -16,6 +16,8 @@ consign()
     .then('boot.js')
     .into(app)
 
+module.exports = app;
+
 app.listen(PORT, () => {
     console.log(`Ntask API - porta ${PORT}`);
 });
