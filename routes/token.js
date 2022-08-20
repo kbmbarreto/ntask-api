@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jwt-simple');
-const config = require('../config')
+const config = require('../config.js');
 
 module.exports = (app) => {
     const Users = app.models.users;

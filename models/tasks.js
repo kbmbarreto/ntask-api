@@ -3,7 +3,7 @@ const {DataTypes} = require('sequelize');
 module.exports = (app) => {
     const Tasks = app.db.define('Tasks', {
         id: {
-            type: DataTypes.BIGINT,
+            type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true
         },
@@ -19,6 +19,7 @@ module.exports = (app) => {
             allowNull: false,
             defaultValue: false
         }
-    })
+    });
+
     return Tasks;
 };
