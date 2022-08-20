@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="WS-222.3739.57">
+    <data-source name="@tvf-reservavaga-dev" uuid="dde0e85f-d0bc-4ce8-9f9c-5865e3958699">
+      <database-info product="Microsoft SQL Server" version="12.00.537" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 10.2 for SQL Server" driver-version="10.2.1.0" dbms="AZURE" exact-version="12.0.537" exact-driver-version="10.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>tvfroot</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="ReservaVaga">
+            <node kind="schema" qname="dbo" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

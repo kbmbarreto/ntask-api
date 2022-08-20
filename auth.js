@@ -8,7 +8,7 @@ module.exports = (app) => {
 
     const params = {
         secretOrKey: jwt.secret,
-        jwtFromRequest: ExtractJwt.fromHeader('Authorization')
+        jwtFromRequest: ExtractJwt.fromHeader('authorization')
     };
 
     passport.use(
