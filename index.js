@@ -1,10 +1,7 @@
 const express = require('express')
 const consign = require('consign')
 
-//const PORT = 3005
 const app = express()
-
-//app.set('json spaces', 4);
 
 consign({verbose: false})
     .include('db.js')
@@ -17,7 +14,3 @@ consign({verbose: false})
     .into(app)
 
 module.exports = app;
-
-app.listen(PORT, () => {
-    console.log(`Ntask API - porta ${PORT}`);
-});
