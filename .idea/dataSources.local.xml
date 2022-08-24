@@ -12,7 +12,13 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="database" qname="ReservaVaga">
-            <node kind="schema" qname="dbo" />
+            <node kind="schema">
+              <name qname="@" />
+              <name qname="db_accessadmin" />
+              <name qname="db_datareader" />
+              <name qname="db_datawriter" />
+              <name qname="dbo" />
+            </node>
           </node>
         </introspection-scope>
       </schema-mapping>
