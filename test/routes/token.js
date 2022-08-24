@@ -1,23 +1,21 @@
 describe('Routes: Token', () => {
     const Users = app.models.users;
+
     describe('POST /token', () => {
         beforeEach(async () => {
-
-            await Users.destroy({where:{}});
-
+            await Users.destroy({ where: {} });
             await Users.create({
                 name: 'John',
-                email: 'john@msn.com',
+                email: 'john@mail.net',
                 password: '12345'
             });
         });
 
         describe('status 200', () => {
             it('returns authenticated user token', done => {
-
                 request.post('/token')
                     .send({
-                        email: 'john@msn.com',
+                        email: 'john@mail.net',
                         password: '12345'
                     })
                     .expect(200)
@@ -30,10 +28,9 @@ describe('Routes: Token', () => {
 
         describe('status 401', () => {
             it('throws error when password is incorrect', done => {
-
                 request.post('/token')
                     .send({
-                        email: 'john@msn.com',
+                        email: 'john@mail.net',
                         password: 'SENHA_ERRADA'
                     })
                     .expect(401)
@@ -41,7 +38,6 @@ describe('Routes: Token', () => {
             });
 
             it('throws error when email not exists', done => {
-
                 request.post('/token')
                     .send({
                         email: 'EMAIL_ERRADO',
@@ -52,7 +48,6 @@ describe('Routes: Token', () => {
             });
 
             it('throws error when fields are blank', done => {
-
                 request.post('/token')
                     .expect(401)
                     .end(done);
