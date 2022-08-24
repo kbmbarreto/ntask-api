@@ -1,12 +1,12 @@
 const express = require('express')
 const consign = require('consign')
 
-const PORT = 3005
+//const PORT = 3005
 const app = express()
 
-app.set('json spaces', 4);
+//app.set('json spaces', 4);
 
-consign()
+consign({verbose: false})
     .include('db.js')
     .then('models')
     .then('associations.js')
