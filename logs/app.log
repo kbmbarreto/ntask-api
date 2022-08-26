@@ -1,0 +1,11 @@
+{"level":"info","message":"[Fri Aug 26 2022 00:31:36 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 00:31:36 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 00:31:36 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 00:31:36 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 00:31:36 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:31:59 +0000] \"GET / HTTP/1.1\" 200 29\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:31:59 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:32:03 +0000] \"GET / HTTP/1.1\" 304 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:32:04 +0000] \"GET / HTTP/1.1\" 304 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:32:04 +0000] \"GET / HTTP/1.1\" 304 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:03:32:04 +0000] \"GET / HTTP/1.1\" 304 -\n"}
