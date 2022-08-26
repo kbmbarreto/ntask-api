@@ -1,4 +1,4 @@
-
+const app = require('../../index')
 
 const jwt = require('jwt-simple');
 

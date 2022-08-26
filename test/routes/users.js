@@ -1,4 +1,5 @@
 const jwt = require('jwt-simple');
+const app = require('../../index')
 
 describe('Routes: Users', () => {
     const Users = app.models.users;

@@ -1,3 +1,5 @@
+const logger = require('../logger');
+
 module.exports = {
     db: {
         database: 'ntask',
@@ -5,6 +7,9 @@ module.exports = {
         password: 'Dev2020@',
         params: {
             dialect: 'mysql',
+            logging: (sql) => {
+                logger.info(`[${new Date()}] ${sql}`);
+            },
             define: {
                 underscored: true
             }

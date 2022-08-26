@@ -1,3 +1,5 @@
+const app = require('../../index')
+
 describe('Routes: Token', () => {
     const Users = app.models.users;
 
