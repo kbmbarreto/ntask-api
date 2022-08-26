@@ -69,3 +69,70 @@
 {"level":"info","message":"[Fri Aug 26 2022 14:52:37 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
 {"level":"info","message":"[Fri Aug 26 2022 14:52:37 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
 {"level":"info","message":"[Fri Aug 26 2022 14:52:37 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT 1+1 AS result"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `users`"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tasks' AND TABLE_SCHEMA = 'ntask'"}
+{"level":"info","message":"[Fri Aug 26 2022 15:19:32 GMT-0300 (Brasilia Standard Time)] Executing (default): SHOW INDEX FROM `tasks`"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc HTTP/1.1\" 301 179\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/ HTTP/1.1\" 200 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/assets/bootstrap.min.css HTTP/1.1\" 200 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/assets/prism.css HTTP/1.1\" 200 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/assets/main.css HTTP/1.1\" 200 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/assets/main.bundle.js HTTP/1.1\" 200 -\n"}
+{"level":"info","message":"::1 - - [26/Aug/2022:18:19:36 +0000] \"GET /apidoc/assets/favicon.ico HTTP/1.1\" 200 -\n"}
