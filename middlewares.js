@@ -2,8 +2,9 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const compression = require('compression')
 const cors = require('cors');
-const morgan = require('morgan')
-const logger = require('./logger')
+const helmet = require('helmet');
+const morgan = require('morgan');
+const logger = require('./logger');
 
 module.exports = app => {
     app.set('port', 3000);
@@ -13,6 +14,7 @@ module.exports = app => {
             write: (log) => logger.info(log)
         }
     }));
+    app.use(helmet());
     app.use(cors({
         origin: ['http://localhost:3001'],
         methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
